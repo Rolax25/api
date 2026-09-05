@@ -39,6 +39,12 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`✅ API Siloe corriendo en http://localhost:${PORT}`);
-});
+// Solo iniciar el servidor si se ejecuta directamente (no en Vercel)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`✅ API Siloe corriendo en http://localhost:${PORT}`);
+  });
+}
+
+// Exportar la app para Vercel
+module.exports = app;

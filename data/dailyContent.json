@@ -1,5 +1,5 @@
 {
-  "2024-09-01": {
+  "09-01": {
     "verse": {
       "text": "Porque yo sé los planes que tengo para vosotros, planes de bienestar y no de calamidad, para daros un futuro y una esperanza.",
       "reference": "Jeremías 29:11"
@@ -10,7 +10,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-02": {
+  "09-02": {
     "verse": {
       "text": "Todo lo puedo en Cristo que me fortalece.",
       "reference": "Filipenses 4:13"
@@ -21,7 +21,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-03": {
+  "09-03": {
     "verse": {
       "text": "El Señor es mi pastor, nada me falta. En verdes praderas me hace recostar, me conduce hacia fuentes tranquilas y repara mis fuerzas.",
       "reference": "Salmo 23:1-3"
@@ -32,7 +32,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-04": {
+  "09-04": {
     "verse": {
       "text": "Dios es nuestro refugio y fortaleza, socorro siempre pronto en la tribulación.",
       "reference": "Salmo 46:2"
@@ -43,7 +43,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-05": {
+  "09-05": {
     "verse": {
       "text": "En todo lo que hagáis, hacedlo con amor.",
       "reference": "1 Corintios 16:14"
@@ -54,7 +54,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-06": {
+  "09-06": {
     "verse": {
       "text": "Fiel es el que os llama, el cual también lo hará.",
       "reference": "1 Tesalonicenses 5:24"
@@ -65,7 +65,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-07": {
+  "09-07": {
     "verse": {
       "text": "Dichosos los que son perseguidos por causa de la justicia, porque de ellos es el reino de los cielos.",
       "reference": "Mateo 5:10"
@@ -76,7 +76,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-08": {
+  "09-08": {
     "verse": {
       "text": "Dios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.",
       "reference": "Lucas 1:28,42"
@@ -87,7 +87,7 @@
     },
     "liturgicalColor": "Blanco"
   },
-  "2024-09-09": {
+  "09-09": {
     "verse": {
       "text": "De cierto os digo que en cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.",
       "reference": "Mateo 25:40"
@@ -98,7 +98,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-10": {
+  "09-10": {
     "verse": {
       "text": "Venid a mí todos los que estáis cansados y agobiados, y yo os haré descansar.",
       "reference": "Mateo 11:28"
@@ -109,7 +109,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-11": {
+  "09-11": {
     "verse": {
       "text": "El amor es paciente, es bondadoso. El amor no es envidioso ni jactancioso ni orgulloso.",
       "reference": "1 Corintios 13:4"
@@ -120,7 +120,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-12": {
+  "09-12": {
     "verse": {
       "text": "Todas las generaciones me llamarán bienaventurada.",
       "reference": "Lucas 1:48"
@@ -131,7 +131,7 @@
     },
     "liturgicalColor": "Blanco"
   },
-  "2024-09-13": {
+  "09-13": {
     "verse": {
       "text": "No hay mayor amor que dar la vida por los amigos.",
       "reference": "Juan 15:13"
@@ -142,18 +142,18 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-14": {
+  "09-14": {
     "verse": {
-      "text": "Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que cree en él no se pierda, sino que tenga vida eterna.",
-      "reference": "Juan 3:16"
+      "text": "Por tanto, todo lo que queráis que los hombres os hagan, también vosotros hacedlo a ellos, porque esta es la ley y los profetas.",
+      "reference": "Mateo 7:12"
     },
     "reflection": {
-      "text": "La cruz es el mayor símbolo del amor de Dios. Él dio a su Hijo para salvarnos. Hoy celebramos ese amor inmenso.",
-      "author": "San Juan"
+      "text": "El principio de oro: trata a los demás como te gustaría que te trataran. Es la base de todas las relaciones sanas y el mandamiento de oro.",
+      "author": "Jesús"
     },
-    "liturgicalColor": "Rojo"
+    "liturgicalColor": "Verde"
   },
-  "2024-09-15": {
+  "09-15": {
     "verse": {
       "text": "Y una espada traspasará tu alma, para que sean revelados los pensamientos de muchos corazones.",
       "reference": "Lucas 2:35"
@@ -164,7 +164,7 @@
     },
     "liturgicalColor": "Morado"
   },
-  "2024-09-16": {
+  "09-16": {
     "verse": {
       "text": "Porque yo estoy convencido de que ni la muerte ni la vida, ni los ángeles ni los principados, ni lo presente ni lo futuro, ni los poderes... podrán separarnos del amor de Dios.",
       "reference": "Romanos 8:38-39"
@@ -175,7 +175,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-17": {
+  "09-17": {
     "verse": {
       "text": "Porque todos los que han sido bautizados en Cristo, de Cristo se han revestido.",
       "reference": "Gálatas 3:27"
@@ -186,7 +186,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-18": {
+  "09-18": {
     "verse": {
       "text": "La fe es la certeza de lo que se espera, la convicción de lo que no se ve.",
       "reference": "Hebreos 11:1"
@@ -197,7 +197,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-19": {
+  "09-19": {
     "verse": {
       "text": "Todo lo que pidáis en oración, creed que lo recibiréis, y os vendrá.",
       "reference": "Marcos 11:24"
@@ -208,7 +208,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-20": {
+  "09-20": {
     "verse": {
       "text": "No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios que te esfuerzo.",
       "reference": "Isaías 41:10"
@@ -219,7 +219,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-21": {
+  "09-21": {
     "verse": {
       "text": "Bienaventurados los que creen sin haber visto.",
       "reference": "Juan 20:29"
@@ -230,7 +230,7 @@
     },
     "liturgicalColor": "Rojo"
   },
-  "2024-09-22": {
+  "09-22": {
     "verse": {
       "text": "Id, pues, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre y del Hijo y del Espíritu Santo.",
       "reference": "Mateo 28:19"
@@ -241,7 +241,7 @@
     },
     "liturgicalColor": "Rojo"
   },
-  "2024-09-23": {
+  "09-23": {
     "verse": {
       "text": "Mira, yo estoy con vosotros todos los días, hasta el fin del mundo.",
       "reference": "Mateo 28:20"
@@ -252,7 +252,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-24": {
+  "09-24": {
     "verse": {
       "text": "Orad sin cesar. Dad gracias en todo, porque esta es la voluntad de Dios para vosotros en Cristo Jesús.",
       "reference": "1 Tesalonicenses 5:17-18"
@@ -263,7 +263,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-25": {
+  "09-25": {
     "verse": {
       "text": "Dichoso el que tiene al Dios de Jacob por auxilio, y su esperanza está en el Señor su Dios.",
       "reference": "Salmo 146:5"
@@ -274,7 +274,7 @@
     },
     "liturgicalColor": "Blanco"
   },
-  "2024-09-26": {
+  "09-26": {
     "verse": {
       "text": "¿No ardía nuestro corazón mientras nos hablaba en el camino y nos explicaba las Escrituras?",
       "reference": "Lucas 24:32"
@@ -285,7 +285,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-27": {
+  "09-27": {
     "verse": {
       "text": "Curad enfermos, resucitad muertos, limpiad leprosos, echad demonios. De gracia recibisteis, dad de gracia.",
       "reference": "Mateo 10:8"
@@ -296,7 +296,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-28": {
+  "09-28": {
     "verse": {
       "text": "De la manera que hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.",
       "reference": "Mateo 25:40"
@@ -307,7 +307,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-29": {
+  "09-29": {
     "verse": {
       "text": "El que quiera venir en pos de mí, niéguese a sí mismo, tome su cruz y sígame.",
       "reference": "Mateo 16:24"
@@ -318,7 +318,7 @@
     },
     "liturgicalColor": "Verde"
   },
-  "2024-09-30": {
+  "09-30": {
     "verse": {
       "text": "¿No son todos ellos espíritus servidores, enviados para servicio de los que han de heredar la salvación?",
       "reference": "Hebreos 1:14"

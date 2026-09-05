@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const dotenv = require('dotenv');
 const contentRoutes = require('./src/routes/contentRoutes');
 
@@ -12,7 +13,10 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Ruta principal
+// Servir archivos estáticos de la carpeta public
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Ruta principal API
 app.use('/api', contentRoutes);
 
 // Ruta de bienvenida
@@ -28,6 +32,11 @@ app.get('/', (req, res) => {
       'Versículo del día': '/api/verse'
     }
   });
+});
+
+// Ruta para servir el frontend HTML
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT, () => {

@@ -19,17 +19,27 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Ruta principal API
 app.use('/api', contentRoutes);
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    timestamp: new Date().toISOString(),
+    version: '1.0.0'
+  });
+});
+
 // Ruta de bienvenida
 app.get('/', (req, res) => {
   res.json({
     name: 'API Siloe',
     version: '1.0.0',
     endpoints: {
-      'Contenido del día': '/api/daily',
-      'Santo del día': '/api/saint/today',
-      'Sabías que...': '/api/curiosity',
-      'Reflexión del día': '/api/reflection',
-      'Versículo del día': '/api/verse'
+      health: '/health',
+      daily: '/api/daily',
+      verse: '/api/verse',
+      reflection: '/api/reflection',
+      saint: '/api/saint/today',
+      curiosity: '/api/curiosity'
     }
   });
 });

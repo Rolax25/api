@@ -5,6 +5,10 @@ const saints = [
     slug: "beato-marcelo",
     feastDay: "July 30",
     description: "Beato Marcelo de Cesarea, mártir.",
+    biography: "Marcelo de Cesarea fue un soldado romano que, durante la persecución del emperador Diocleciano, confesó públicamente su fe cristiana. Fue arrestado y martirizado alrededor del año 306. Es venerado como beato y su fiesta se celebra el 30 de julio. Su testimonio de fe firmes le valió el título de beato y es remembered por su valentía al enfrentar el martirio.",
+    patronage: "Soldados, militares",
+    birthDate: "Siglo III",
+    deathDate: "306 d.C.",
     image: "images/saints/beato-marcelo.png"
   },
   {
@@ -13,22 +17,34 @@ const saints = [
     slug: "nuestra-senora-merced",
     feastDay: "September 24",
     description: "Virgen María, patrona de la Merced.",
+    biography: "La Virgen de la Merced, también conocida como Nuestra Señora de la Merced, es la patrona de la Orden de la Merced. Fue coronada canónicamente en 1925. La devoción a esta advocación mariana se centra en la liberación de los cautivos y la protección de los necesitados. San Pedro Nolasco, fundador de la orden, tuvo una visión de la Virgen que le pidió fundar la congregación para redimir cautivos.",
+    patronage: "Cautivos, presos, la Orden de la Merced",
+    birthDate: "Aparición en 1218",
+    deathDate: "Veneración perenne",
     image: "images/saints/nuestra-senora-merced.png"
   },
   {
     id: 3,
-    name: "San Andrés Kim",
+    name: "San Andrés Kim Taegon",
     slug: "san-andres-kim",
     feastDay: "September 20",
     description: "San Andrés Kim Taegon, primer sacerdote coreano y mártir.",
+    biography: "Andrés Kim Taegon nació en 1821 en Corea. Fue el primer sacerdote coreano, ordenado en 1844 después de un largo viaje a Macao. Regresó a Corea para evangelizar y fue arrestado durante las persecuciones contra los cristianos. Fue decapitado el 21 de septiembre de 1849. Junto con san Pablo Chong Won-ji-in y 123 compañeros mártires coreanos, fue canonizado en 1984 por el Papa Juan Pablo II.",
+    patronage: "Corea, sacerdotes coreanos, mártires de Corea",
+    birthDate: "16 de agosto de 1821",
+    deathDate: "21 de septiembre de 1849",
     image: "images/saints/san-andres-kim.png"
   },
   {
     id: 4,
-    name: "San Cipriano",
+    name: "San Cipriano de Cartago",
     slug: "san-cipriano",
     feastDay: "September 16",
-    description: "San Cipriano de Cartago, mártir y obispo.",
+    description: "San Cipriano de Cartago, obispo y mártir.",
+    biography: "Cipriano de Cartago nació alrededor del año 200 en África del Norte. Antes de su conversión, fue un rico abogado pagano. Tras bautizarse, fue elegido obispo de Cartago en 248. Durante la persecución de Decio en 250, huyó pero continuó dirigiendo la comunidad por cartas. Defendió la unidad de la Iglesia y escribió sobre la penitencia. Murió decapitado el 14 de septiembre de 258.",
+    patronage: "África del Norte, libreros, abogados",
+    birthDate: "Alrededor de 200 d.C.",
+    deathDate: "14 de septiembre de 258 d.C.",
     image: "images/saints/san-cipriano.png"
   },
   {
@@ -37,6 +53,10 @@ const saints = [
     slug: "san-cleofas",
     feastDay: "November 25",
     description: "San Cleofás, hermano de San José.",
+    biography: "San Cleofás, según la tradición, era el esposo de María de Cleofás y hermano de San José, el esposo de la Virgen María. Es mencionado en los evangelios como uno de los discípulos de Emaús junto con San Lucas. Fue bishop de Jerusalén según algunas tradiciones. La tradición dice que murió martyrizado. Su fiesta se celebra el 25 de noviembre.",
+    patronage: "Albañiles, carpinteros, constructores",
+    birthDate: "Siglo I a.C.",
+    deathDate: "Siglo I d.C.",
     image: "images/saints/san-cleofas.png"
   },
   {
@@ -45,6 +65,10 @@ const saints = [
     slug: "san-cornelio",
     feastDay: "September 16",
     description: "San Cornelio el Centurión, primer gentil convertido al cristianismo.",
+    biography: "Cornelio era un centurión romano destacado en Cesarea Maritime, hombre piadoso que temía a Dios. Recibió una visión de un ángel que le dijo que enviara a buscar a Simón Pedro. Cuando Pedro llegó, Cornelio y su familia escucharon la Palabra y recibieron el Espíritu Santo. Fue bautizado con toda su casa, siendo el primer gentil en convertirse al cristianismo. Es considerado el fundador de la iglesia en Cesarea.",
+    patronage: "Soldados, Holanda",
+    birthDate: "Siglo I d.C.",
+    deathDate: "Siglo I d.C.",
     image: "images/saints/san-cornelio.png"
   },
   {
@@ -52,7 +76,11 @@ const saints = [
     name: "San Cosme",
     slug: "san-cosme",
     feastDay: "September 27",
-    description: "San Cosme, médico y mártir.",
+    description: "San Cosme, médico y mártir, gemelo de San Damián.",
+    biography: "San Cosme y su hermano gemelo San Damián fueron médicos cristianos que ejercían su arte médico en Asia Menor. Eran inseparables tanto en vida como en muerte. Atendían a todos los enfermos sin cobrar, atributuyendo su poder de sanación a Cristo. Fueron arrestados durante la persecución del emperador Diocleciano y, tras negarse a sacrificar a los dioses, fueron martirizados. Son los santos médicos, patrons de médicos y farmacéuticos.",
+    patronage: "Médicos, farmacéuticos, dentistas, cirujanos",
+    birthDate: "Siglo III d.C.",
+    deathDate: "Alrededor de 303 d.C.",
     image: "images/saints/san-cosme.png"
   },
   {
@@ -60,7 +88,11 @@ const saints = [
     name: "San Damián",
     slug: "san-damian",
     feastDay: "September 27",
-    description: "San Damián, médico y mártir.",
+    description: "San Damián, médico y mártir, gemelo de San Cosme.",
+    biography: "San Damián y su hermano gemelo San Cosme fueron médicos cristianos célebres en Asia Menor. Eran conocidos por su habilidad médica y su caridad, atendiendo a todos los pacientes gratuitamente. Durante la persecución de Diocleciano fueron arrestados y torturados. Sobrevivieron milagrosamente a los tormentos pero finalmente fueron decapitados. Son venerados como los santos médicos, protectores de todos los profesionales de la salud.",
+    patronage: "Médicos, farmacéuticos, dentistas, cirujanos",
+    birthDate: "Siglo III d.C.",
+    deathDate: "Alrededor de 303 d.C.",
     image: "images/saints/san-damian.png"
   },
   {
@@ -69,6 +101,10 @@ const saints = [
     slug: "san-eleuterio",
     feastDay: "May 26",
     description: "San Eleuterio, Papa y mártir.",
+    biography: "San Eleuterio fue el Papa número 15 de la Iglesia Católica, sucediendo al Papa Aniceto alrededor del año 171. Gobernó la Iglesia durante aproximadamente 15 años hasta su muerte. Según la tradición, fue martirizado. Envió misioneros a Britania para evangelizar la isla. Es patrono de los conversos y de los que buscan la fe.",
+    patronage: "Conversos, novicios, laicos",
+    birthDate: "Siglo II d.C.",
+    deathDate: "189 d.C.",
     image: "images/saints/san-eleuterio.png"
   },
   {
@@ -77,6 +113,10 @@ const saints = [
     slug: "san-gabriel-arcangel",
     feastDay: "March 24",
     description: "San Gabriel Arcángel, mensajero de Dios.",
+    biography: "Gabriel es uno de los tres arcángeles mencionados en la Biblia. Es conocido como el ángel mensajero de Dios. Anunció el nacimiento de San Juan Bautista a Zacarías y el nacimiento de Jesús a la Virgen María. También aparece en el libro de Daniel interpretando visiones proféticas. Su nombre significa 'Fortaleza de Dios' o 'Soldado de Dios'.",
+    patronage: "Comunicaciones, mensajeros, embajadores, sello postal",
+    birthDate: "Antes de la creación del mundo",
+    deathDate: "Eterno",
     image: "images/saints/san-gabriel-arcangel.png"
   },
   {
@@ -84,7 +124,11 @@ const saints = [
     name: "San Genaro",
     slug: "san-genaro",
     feastDay: "September 19",
-    description: "San Genaro, mártir de Benevento.",
+    description: "San Genaro, obispo y mártir de Benevento.",
+    biography: "San Jenaro era bishop de Benevento, Italia, durante las persecuciones del emperador Diocleciano. Fue arrestado junto con otros cristianos y martirizado alrededor del año 305. Su sangre se conserva en una ampolla en la Catedral de Nápoles y, según la tradición, se licúa tres veces al año. Es el patrón principal de Nápoles y protector contra las erupciones del Vesubio.",
+    patronage: "Nápoles,被害者 de erupciones volcánicas",
+    birthDate: "Siglo III d.C.",
+    deathDate: "305 d.C.",
     image: "images/saints/san-genaro.png"
   },
   {
@@ -93,6 +137,10 @@ const saints = [
     slug: "san-gil",
     feastDay: "September 1",
     description: "San Gil, eremita irlandés.",
+    biography: "San Gil, también conocido como San Egidio, fue un eremita francés de origen irlandés. Vivió como monje en el monasterio de Saint-Jean-de-Réôme antes de retirarse a una vida eremítica en los bosques de Gévaudan. Según la tradición, un ciervo perseguido por el rey lo descubrió en su escondite. Murió alrededor del año 721. Es patrono de los handicappers, mutilados y gitanos.",
+    patronage: "Gitanos, Personas con discapacidad, Hernia",
+    birthDate: "Siglo VII d.C.",
+    deathDate: "721 d.C.",
     image: "images/saints/san-gil.png"
   },
   {
@@ -100,7 +148,11 @@ const saints = [
     name: "San Jerónimo",
     slug: "san-jeronimo",
     feastDay: "September 30",
-    description: "San Jerónimo, traductor de la Biblia (Vulgata).",
+    description: "San Jerónimo, traductor de la Biblia al latín (Vulgata).",
+    biography: "Jerónimo nació en Estridón, cerca de Dalmacia, alrededor del año 347. Fue un erudito, teólogo y traductor de la Biblia. Después de una vida mundana en Roma, se retiró como ermitaño en el desierto de Calcis. Allí tradujo la Biblia al latín, conocida como la Vulgata, que se convirtió en la traducción oficial de la Iglesia Católica durante siglos. Fundó un monasterio en Belén donde murió.",
+    patronage: "Biblia, traductores, bibliotecarios, estudiantes",
+    birthDate: "Alrededor de 347 d.C.",
+    deathDate: "30 de septiembre de 420 d.C.",
     image: "images/saints/san-jeronimo.png"
   },
   {
@@ -108,7 +160,11 @@ const saints = [
     name: "San José Cupertino",
     slug: "san-jose-cupertino",
     feastDay: "September 21",
-    description: "San José Cupertino, religioso capuchino y patrono de los pilotos.",
+    description: "San José Cupertino, religioso capuchino y patrono de los exámenes.",
+    biography: "José Cupertino nació en 1603 en Cupertino, Italia. De joven mostró poca aptitud para los estudios y trabajo como zapatero y criado. Ingresó a los franciscanos capuchinos pero tuvo dificultades con el estudio y la vida comunitaria. Fue ordenado sacerdote y se distinguió por su humildad y sus experiencias místicas. Era conocido por sus éxtasis y levitaciones durante la oración. Murió en 1663 y fue canonizado en 1767.",
+    patronage: "Estudiantes, exámenes, personas con dificultades de aprendizaje",
+    birthDate: "17 de junio de 1603",
+    deathDate: "18 de septiembre de 1663",
     image: "images/saints/san-jose-cupertino.png"
   },
   {
@@ -116,7 +172,11 @@ const saints = [
     name: "San Juan Crisóstomo",
     slug: "san-juan-crisostomo",
     feastDay: "November 13",
-    description: "San Juan Crisóstomo, Doctor de la Iglesia.",
+    description: "San Juan Crisóstomo, Doctor de la Iglesia y gran predicador.",
+    biography: "Juan Crisóstomo (Boca de Oro) nació en Antioquía alrededor del año 347. Fue un gran predicador y escritor eclesiástico. Estudió teología bajo San Juan el Anciano y fue bautizado a los 20 años. Fue bishop de Constantinopla y reformador de la vida clerical. Denunció la corrupción de la corte y sufrió persecuciones. Es Doctor de la Iglesia y uno de los Padres Griegos más importantes.",
+    patronage: "Oradores, predicadores, profesores",
+    birthDate: "Alrededor de 347 d.C.",
+    deathDate: "14 de septiembre de 407 d.C.",
     image: "images/saints/san-juan-crisostomo.png"
   },
   {
@@ -125,6 +185,10 @@ const saints = [
     slug: "san-marino",
     feastDay: "September 3",
     description: "San Marino, fundador de la República de San Marino.",
+    biography: "Marino fue un pedrero cristianos que huyó de la isla de Rab en Dalmacia durante las persecuciones del emperador Diocleciano. Se estableció en el monte Titano, donde fundó una comunidad cristiana. Según la tradición, pidió al obispo de Rímini que le permitiera vivir como ermitaño, prometiendo ser fiel a la劝ia. Fundó San Marino, la república más antigua del mundo, que lleva su nombre.",
+    patronage: "San Marino, escultores, trabajadores de piedra",
+    birthDate: "Siglo III d.C.",
+    deathDate: "306 d.C.",
     image: "images/saints/san-marino.png"
   },
   {
@@ -133,6 +197,10 @@ const saints = [
     slug: "san-mateo",
     feastDay: "September 21",
     description: "San Mateo, apóstol y evangelista.",
+    biography: "Mateo, también llamado Leví, era publicano (recaudador de impuestos) cuando fue llamado por Jesús. Era unus de los doce apóstoles y autor del primer evangelio. Su evangelio fue escrito para el público judío, enfatizando a Jesús como el Mesías prometido. Según la tradición, predicó en Etiopía y fue martirizado. Es representado con alas de ángel o como publicano contando dinero.",
+    patronage: "Contadores, banqueros, financieros, cobradores",
+    birthDate: "Siglo I d.C.",
+    deathDate: "Alrededor del año 74 d.C.",
     image: "images/saints/san-mateo.png"
   },
   {
@@ -140,7 +208,11 @@ const saints = [
     name: "San Mauricio",
     slug: "san-mauricio",
     feastDay: "September 22",
-    description: "San Mauricio, mártir de la Legión Tebana.",
+    description: "San Mauricio, comandante de la Legión Tebana y mártir.",
+    biography: "Mauricio era el comandante de la Legión Tebana, un grupo de soldados cristianos del norte de África al servicio del Imperio Romano. Junto con sus compañeros soldados, se negó a massacrar a cristianos durante una expedición en Suiza. Por negarse a cumplir la orden, fueron martirizados alrededor del año 286 en Agauno (actual Saint-Maurice, Suiza). Es patrono de los soldados y de varias ciudades.",
+    patronage: "Soldados, militares, oficiales del ejército",
+    birthDate: "Siglo III d.C.",
+    deathDate: "286 d.C.",
     image: "images/saints/san-mauricio.png"
   },
   {
@@ -148,7 +220,11 @@ const saints = [
     name: "San Miguel Arcángel",
     slug: "san-miguel-arcangel",
     feastDay: "October 2",
-    description: "San Miguel Arcángel, príncipe de los ángeles.",
+    description: "San Miguel Arcángel, príncipe de los ángeles y guerrero celestial.",
+    biography: "Miguel es el arcángel más importante en las tres religions abrahámicas. Su nombre significa '¿Quién como Dios?'. Lideró la batalla celestial contra Lucifer y sus ángeles rebelados, arrojándolos del cielo. Es protector de la Iglesia y del pueblo de Dios. Aparece en el libro de Daniel y el Apocalipsis. Es patrono de Marines, policías y vendedores de automóviles.",
+    patronage: "Marines, policías, vendedores de autos, bankers",
+    birthDate: "Antes de la creación del mundo",
+    deathDate: "Eterno",
     image: "images/saints/san-miguel-arcangel.png"
   },
   {
@@ -156,7 +232,11 @@ const saints = [
     name: "San Nicolás Tolentino",
     slug: "san-nicolas-tolentino",
     feastDay: "September 10",
-    description: "San Nicolás Tolentino, religioso franciscano.",
+    description: "San Nicolás Tolentino, religioso agustino y predicador.",
+    biography: "Nicolás Tolentino nació en 1246 en Tolentino, Italia. Desde joven mostró gran devoción religiosa. Ingresó a la Orden de San Agustín y se distinguió por su predicación y penitencia. Era conocido por su amor a los pobres y su dedicación a los muertos. Viajó por Italia predicando y convirtiendo a pecadores. Murió en 1305 en Tolentino.",
+    patronage: "Marinos, santos que ayudan a encontrar trabajo",
+    birthDate: "1246 d.C.",
+    deathDate: "10 de septiembre de 1305",
     image: "images/saints/san-nicolas-tolentino.png"
   },
   {
@@ -165,6 +245,10 @@ const saints = [
     slug: "san-paciente",
     feastDay: "August 22",
     description: "San Paciente, obispo de Roma y mártir.",
+    biography: "San Paciente fue Papa de la Iglesia Católica desde el año 161 hasta su muerte en 167. Durante su pontificado, la Iglesia gozó de relativa paz bajo el emperador Antonino Pío. Contribuyó a la construcción de varias iglesias en Roma. Se le atribuye la construcción del Baptisterio de San Juan. Es venerado como santo y su fiesta se celebra el 22 de agosto.",
+    patronage: "Obispos, paciencia",
+    birthDate: "Siglo II d.C.",
+    deathDate: "167 d.C.",
     image: "images/saints/san-paciente.png"
   },
   {
@@ -172,15 +256,23 @@ const saints = [
     name: "San Pedro Claver",
     slug: "san-pedro-claver",
     feastDay: "September 9",
-    description: "San Pedro Claver, misionero de los esclavos en Colombia.",
+    description: "San Pedro Claver, misionero de los esclavos en Cartagena de Indias.",
+    biography: "Pedro Claver nació en 1580 en España. Ingresó a la Compañía de Jesús y fue enviado como missionero a Cartagena, Colombia. Desde 1620 hasta su muerte, se dedicó exclusivamente al servicio de los africanos esclavizados que llegaban a puerto. Les bautizaba, catequizaba y defendía. Se llamaba a sí mismo 'esclavo de los negros para siempre'. Murió en 1654 de peste.",
+    patronage: "Esclavos, trabajadores domésticos, negros",
+    birthDate: "1580 d.C.",
+    deathDate: "8 de septiembre de 1654",
     image: "images/saints/san-pedro-claver.png"
   },
   {
     id: 23,
-    name: "San Pío Padre Pío",
+    name: "San Pío de Pietrelcina (Padre Pío)",
     slug: "san-pio-padre-pio",
     feastDay: "September 23",
-    description: "San Pío de Pietrelcina, estigmatita y confesor.",
+    description: "San Pío de Pietrelcina, fraile capuchino con los estigmas de Cristo.",
+    biography: "Francesco Forgione, futuro Padre Pío, nació en 1887 en Pietrelcina, Italia. A los 5 años tuvo su primera visión. Ingresó a los capuchinos a los 15 años y recibió el nombre de Pío. Fue sacerdote en 1910. Recibió los estigmas (heridas de Cristo) en 1918. Fundó el Hospital Casa Sollievo della Sofferenza. Era conocido por su capacidad de bilocación, lectura de almas y profecía.",
+    patronage: "Estigmatizados, protección de la familia",
+    birthDate: "25 de mayo de 1887",
+    deathDate: "23 de septiembre de 1968",
     image: "images/saints/san-pio-padre-pio.png"
   },
   {
@@ -188,7 +280,11 @@ const saints = [
     name: "San Rafael Arcángel",
     slug: "san-rafael-arcangel",
     feastDay: "October 24",
-    description: "San Rafael Arcángel, sanador y guía.",
+    description: "San Rafael Arcángel, sanador y guía de Tobías.",
+    biography: "Rafael es el tercer arcángel mencionado en la Biblia. Aparece en el libro de Tobías donde guía al joven Tobías en su viaje para curar la ceguera de su padre. Su nombre significa 'Dios ha sanado'. Es el ángel guardián de los viajeros y protector de los jóvenes. Es representado generalmente con sandalias, bordón y un pez en la mano.",
+    patronage: "Viajeros, jóvenes, matrimonios, doctores",
+    birthDate: "Antes de la creación del mundo",
+    deathDate: "Eterno",
     image: "images/saints/san-rafael-arcangel.png"
   },
   {
@@ -196,7 +292,11 @@ const saints = [
     name: "San Roberto Belarmino",
     slug: "san-roberto-belarmino",
     feastDay: "September 29",
-    description: "San Roberto Belarmino, Doctor de la Iglesia.",
+    description: "San Roberto Belarmino, Doctor de la Iglesia y teólogo jesuita.",
+    biography: "Roberto Belarmino nació en 1542 en Nápoles, Italia. Ingresó a la Compañía de Jesús en 1567 y fue ordenado sacerdote en 1570. Fue profesor de teología en la Universidad de Ingolstadt y luego confesseur del Papa Clemente VIII. Contribuyó significativamente a la Contrarreforma con sus escritos. Fue canonizado en 1930 y declarado Doctor de la Iglesia en 1931. Murió en 1621.",
+    patronage: "Teólogos, estudiantes de teología",
+    birthDate: "4 de octubre de 1542",
+    deathDate: "6 de septiembre de 1621",
     image: "images/saints/san-roberto-belarmino.png"
   },
   {
@@ -205,6 +305,10 @@ const saints = [
     slug: "san-wenceslao",
     feastDay: "September 28",
     description: "San Wenceslao, duque de Bohemia y mártir.",
+    biography: "Wenceslao fue duque de Bohemia desde 921 hasta su asesinato en 935 por su hermano Boleslao. Era un gobernante piadoso que promovió el cristianismo en Bohemia. Según la tradición, era virtuoso, piadoso y dedicado a los pobres. Su asesinato occurred mientras oraba. Es el patrono de la República Checa y su canción 'Good King Wenceslas' lo ha hecho conocido mundialmente.",
+    patronage: "República Checa, Bohemia, cerveceros",
+    birthDate: "907 d.C.",
+    deathDate: "28 de septiembre de 935",
     image: "images/saints/san-wenceslao.png"
   },
   {
@@ -212,7 +316,11 @@ const saints = [
     name: "Santa Cruz",
     slug: "santa-cruz",
     feastDay: "September 14",
-    description: "Exaltación de la Santa Cruz.",
+    description: "La Santa Cruz, fiesta de la Exaltación de la Santa Cruz.",
+    biography: "La fiesta de la Santa Cruz celebra el hallazgo de la Vera Cruz por Santa Elena, madre del emperador Constantino, en Jerusalem en el año 326. Según la tradición, Santa Elena descubrió las tres cruces en el Santo Sepulcro. La cruz de Cristo fue identificada cuando un muerto resucitó al tocarla. El emperador Heraclio recoveró la cruz de los persas en 628.",
+    patronage: "Arqueólogos",
+    birthDate: "Festividad instituted en el siglo IV",
+    deathDate: "Celebración anual",
     image: "images/saints/santa-cruz.png"
   },
   {
@@ -220,7 +328,11 @@ const saints = [
     name: "Santa Regina",
     slug: "santa-regina",
     feastDay: "November 22",
-    description: "Santa Regina, mártir joven.",
+    description: "Santa Regina, joven mártir de Autun.",
+    biography: "Santa Regina (o Regine) fue una joven mártir de Autun, Francia. Según la tradición, era hija de un rico ciudadano romano que, al convertirse secretamente al cristianismo, fue denunciada durante el gobierno del emperador Maximiano. Fue arrestada, torturada y finalmente decapitada alrededor del año 251. Su nombre 'Regina' significa 'reina'.",
+    patronage: "Jóvenes, doncellas, viñas",
+    birthDate: "Siglo III d.C.",
+    deathDate: "Alrededor de 251 d.C.",
     image: "images/saints/santa-regina.png"
   },
   {
@@ -229,6 +341,10 @@ const saints = [
     slug: "santa-teresa-calcuta",
     feastDay: "September 5",
     description: "Santa Teresa de Calcuta, fundadora de las Misioneras de la Caridad.",
+    biography: "Madre Teresa, de nacimiento Anjezë Gonxhe Bojaxhiu, nació en 1910 en Skopje, actual Macedonia del Norte. A los 18 años ingresó a las Hermanas de Loreto. Fue enviada a Calcuta donde fundó las Misioneras de la Caridad en 1950 para servir a 'los más pobres entre los pobres'. Recibió el Premio Nobel de la Paz en 1979. Fue canonizada en 2016.",
+    patronage: "Misioneros, caridad, vendedores de flores",
+    birthDate: "26 de agosto de 1910",
+    deathDate: "5 de septiembre de 1997",
     image: "images/saints/santa-teresa-calcuta.png"
   },
   {
@@ -236,7 +352,11 @@ const saints = [
     name: "Virgen de los Dolores",
     slug: "virgen-dolores",
     feastDay: "September 15",
-    description: "Virgen María, Madre de Dolores.",
+    description: "Nuestra Señora de los Dolores, madre del Salvador crucificado.",
+    biography: "La Virgen de los Dolores, también conocida como Nuestra Señora de los Dolores, representa a María bajo el título de madre dolorosa. Sus siete dolores incluyen la profecía de Simeón, la huida a Egipto, la pérdida del niño Jesús en el templo, el encuentro con Jesús en el Calvario, la crucifixión, la baj ada de la cruz y la sepultura. Es patrona del Orden de los Servitas.",
+    patronage: "Orden de los Servitas, pessoas triste",
+    birthDate: " according to tradition, mother of Jesus",
+    deathDate: "Assunta al cielo",
     image: "images/saints/virgen-dolores.png"
   },
   {
@@ -244,7 +364,11 @@ const saints = [
     name: "Virgen María Natividad",
     slug: "virgen-maria-natividad",
     feastDay: "September 8",
-    description: "Natividad de Nuestra Señora.",
+    description: "La Natividad de la Virgen María, madre de Jesús.",
+    biography: "La Natividad de la Santísima Virgen María se celebra el 8 de septiembre. Según la tradición, María nació en Nazaret de padres ancianos, Joaquín y Ana, que habían sido estériles. Su nacimiento fue acogido con gozo pues cumpliendo la promesa divina. La fiesta comenzó a celebrarse en el siglo VII en Jerusalén. Es la bascul universal de los católicos.",
+    patronage: "Nacimientos, niños recién nacidos",
+    birthDate: "Según tradición, alrededor del año 20 a.C.",
+    deathDate: "Asunta al cielo",
     image: "images/saints/virgen-maria-natividad.png"
   },
   {
@@ -252,7 +376,11 @@ const saints = [
     name: "Virgen María Santísimo Nombre",
     slug: "virgen-maria-santisimo-nombre",
     feastDay: "September 12",
-    description: "Santísimo Nombre de María.",
+    description: "Fiesta del Santísimo Nombre de María.",
+    biography: "La fiesta del Santísimo Nombre de María se celebra el 12 de septiembre. Fue establecida por el Papa Pío XI en 1924. La devoción al nombre de María fue creciendo a lo largo de los siglos, especialmente después de la victoria de Lepanto en 1571, que se atribuye a su intercesión. El nombre 'María' significa 'Señora' o 'Amada de Dios'.",
+    patronage: "Vencedores en batalla",
+    birthDate: "Según tradición",
+    deathDate: "Asunta al cielo",
     image: "images/saints/virgen-maria-santisimo-nombre.png"
   }
 ];
